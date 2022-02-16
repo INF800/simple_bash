@@ -11,6 +11,12 @@ Define numbers
 ((i=1))
 ```
 
+Echo command output
+
+```shell
+echo "$(ls)"
+```
+
 Watch changes in file count
 
 ```shell
