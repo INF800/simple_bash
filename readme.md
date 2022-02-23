@@ -30,3 +30,11 @@ Loop over files
 # echo before run to be sure
 for f in "$BASE_DIR"/*; do echo rm -r "$f"; done
 ```
+
+---
+
+
+List processes by ram usage
+```shell
+ps aux --sort -rss
+```
